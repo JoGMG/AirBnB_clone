@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+div.container {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* Responsive design elements for smaller screens */
+@media (max-width: 768px) {
+    body {
+        overflow: hidden;
+    }
+
+    div.container {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1016px) {
+    div.container {
+        max-width: 90%;
+    }
+}
